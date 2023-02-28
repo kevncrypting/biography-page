@@ -1,0 +1,24 @@
+h1 {
+    font-weight: 600px;
+}
+
+.quick-facts { /* add a border around this, maybe red? */
+    border: solid;
+    border-color: red;
+}
+
+body {
+    background-image: url("assets/background.jpg");
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300px;
+    margin: auto;
+    width: 50%;
+}
+
+main, header, footer {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
