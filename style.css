@@ -22,3 +22,17 @@ main, header, footer {
 .center {
     text-align: center;
 }
+
+.linkedin {
+    color: #0077B5;
+    width: 100px;
+    height: 100px;
+}
+
+.github {
+    color: #333
+}
+
+.gmail {
+    color: #ea4335;
+}
