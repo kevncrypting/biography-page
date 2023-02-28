@@ -2,7 +2,7 @@ h1 {
     font-weight: 600px;
 }
 
-.quick-facts { /* add a border around this, maybe red? */
+.quick-facts {
     border: solid;
     border-color: red;
 }
@@ -17,6 +17,11 @@ body {
 
 main, header, footer {
     background-color: white;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
 }
 
 .center {
@@ -25,8 +30,6 @@ main, header, footer {
 
 .linkedin {
     color: #0077B5;
-    width: 100px;
-    height: 100px;
 }
 
 .github {
@@ -35,4 +38,25 @@ main, header, footer {
 
 .gmail {
     color: #ea4335;
+}
+
+img.social {
+    height: 1.3em;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 50%;
+    border-style: double;
+}
+
+ul, table {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: auto;
 }
